@@ -1,75 +1,115 @@
-.inicio {
-  background-image: linear-gradient(to right, #007991, #78ffd6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  grid-area: nav;
-  display: grid; }
+/*.inicio {
+    background-image: linear-gradient(to right, #007991, #78ffd6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    grid-area: inicio;
+    display: grid;
+    
+}
 
-.menuPrincipal {
-  background-image: linear-gradient(to right, #007991, #78ffd6);
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  grid-area: menu;
-  display: grid; }
+.menuPrincipal{
+    background-image: linear-gradient(to right, #007991, #78ffd6);
+    backface-visibility: visible;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    grid-area: nav;
+    display: grid;
+}
 
-.item {
-  display: inline; }
+.item{
+    display: inline;
+}
 
 .presentacion {
-  display: grid;
-  grid-template-areas: presentacion;
-  background-image: linear-gradient(to right, #007991, #78ffd6);
-  text-align: center;
-  border: solid; }
+    display: grid;
+    grid-template-areas: presentacion;
+    background-image: linear-gradient(to right, #007991, #78ffd6);
+    text-align: center;   
+    border: solid;
+}
 
 .sponsors {
-  display: grid;
-  grid-template-areas: sponsors;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
-  height: 150px; }
+    display: grid;
+    grid-template-areas: sponsors;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    height: 150px;
+}
 
 .footer {
-  display: grid;
-  grid-template-areas: footer;
-  font-size: smaller;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  background-image: linear-gradient(to right, grey, darkgrey); }
+    display: grid;
+    grid-template-areas: footer;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, grey, darkgrey);
+}
+   
+.introNosImg{
+    /*padding-top: 70px;
+    padding-left: 420px;
+    content: 450px;
 
-.introNosImg {
-  /*padding-top: 70px;
-    padding-left: 420px;*/
-  content: 450px; }
+}
 
 .introGal {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: small;
-  text-align: start;
-  padding-top: 50px;
-  padding-left: 20px;
-  content: 450px; }
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    text-align: start;
+    padding-top: 50px;
+    padding-left: 20px;
+    content: 450px;
+}*/
 .introCot {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center; }
 
-.introTes {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+/*.introTes {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-/*nav{
-    grid-area: nav;
-    height: 140px;
-}*/
 .contacto {
-  display: grid;
-  grid-template-areas: contacto;
-  text-align: center; }
-
+    display: grid;
+    grid-template-areas: contacto;
+    text-align: center;
+    
+}
 .enunc {
-  display: grid;
-  grid-template-areas: contacto;
-  background-image: linear-gradient(to right, #007991, #78ffd6);
-  text-align: center;
-  border: black solid; }
+ display: grid;
+ grid-template-areas: contacto;
+ background-image: linear-gradient(to right, #007991, #78ffd6);
+ text-align: center;
+ border: black solid;
+}*/
+body {
+  background-image: linear-gradient(to right, #007991, #78ffd6); }
+  body header {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    border-bottom: 10px white solid;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  body li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; }
+  body a {
+    text-decoration: underline; }
+  body .presentacion {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; }
+  body .sponsors {
+    border-top: 10px white solid;
+    display: grid;
+    grid-template-areas: sponsors;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    height: 150px; }
+  body .footer {
+    background-image: linear-gradient(to right, white, darkgrey);
+    display: grid;
+    grid-template-areas: footer;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; }
