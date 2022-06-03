@@ -1,5 +1,37 @@
+@charset "UTF-8";
+/*aplicando maps para desafio sass 2*/
+.llamadas {
+  background-color: blue; }
+
+.whatsapp {
+  background-color: green; }
+
+.correo {
+  background-color: red; }
+
+.diseño {
+  background-color: darkgreen;
+  font-size: 15px;
+  width: 100px;
+  height: 100px; }
+
+/*agregando extend a mi proyecto sass*/
+.style, .styleDos {
+  text-align: start;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold; }
+
+.styleDos {
+  font-size: 20px; }
+
+/*agregando mixin para entrega de proyecto sass 2*/
+.styloTitulos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  text-align: right; }
+
 body {
-  background-image: linear-gradient(to right, #007991, #78ffd6); }
+  background-image: linear-gradient(to right, #ED213A, #93291E); }
   body header {
     display: flex;
     justify-content: flex-end;

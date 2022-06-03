@@ -1,7 +1,11 @@
+@import "maps";
+@import "extend";
+@import "mixin";
 
 body {
-    background-image: linear-gradient(to right, #007991, #78ffd6 );
-header { 
+    background-image: linear-gradient(to right, #ED213A, #93291E  ); 
+     
+    header { 
     display: flex;
     justify-content: flex-end;
     text-align: end;
@@ -49,5 +53,4 @@ a {
     text-align: center
     
 }
-
 }

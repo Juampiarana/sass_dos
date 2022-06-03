@@ -1,0 +1,19 @@
+/*aplicando maps para desafio sass 2*/
+
+$mapemergencias: (llamadas: blue, whatsapp: green, correo: red);
+
+@each $emergencias, $color in $mapemergencias {
+    .#{$emergencias} {
+        background-color: $color;
+    }
+}
+
+$desing: (color: darkgreen, fuente: 15px);
+
+.diseño {
+    background-color: map-get($desing,color);
+    font-size: map-get($desing, fuente);
+    width: 100px;
+    height: 100px;
+    
+}

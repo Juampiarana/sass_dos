@@ -1,0 +1,11 @@
+/*agregando mixin para entrega de proyecto sass 2*/
+
+@mixin titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: right;
+}
+
+.styloTitulos {
+    @include titulos;
+}
